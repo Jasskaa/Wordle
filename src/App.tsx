@@ -464,7 +464,7 @@ export default function App() {
                   <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 mb-8 border border-white/30">
                     <div className="text-pink-100 text-xs font-bold uppercase tracking-widest mb-2">Tu Contraseña Especial</div>
                     <div className="text-6xl font-black text-white tracking-tighter">
-                      {totalWins === 3 ? 'Presencia' : totalWins === 4 ? 'Ternura' : 'Mirada'}
+                      {totalWins === 3 ? 'Casi pero no, tienes que lograr mas puntuacion' : totalWins === 4 ? 'Mirada' : 'Mirada'}
                     </div>
                   </div>
                 </>
