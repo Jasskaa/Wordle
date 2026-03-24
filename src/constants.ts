@@ -10,7 +10,6 @@ export const WORDS: WordEntry[] = [
   { word: "BLUSA", hints: ["Prenda superior femenina", "Sueña ser de tela ligera y elegante"] },
   { word: "BOTAS", hints: ["Calzado que cubre el pie y parte de la pierna", "Ideales para el invierno o la lluvia"] },
   { word: "GAFAS", hints: ["Accesorio para proteger los ojos del sol", "También llamadas lentes o anteojos"] },
-  { word: "ANILLO", hints: ["Joya que se pone en los dedos", "Símbolo de compromiso o simple adorno"] },
   { word: "PERLA", hints: ["Gema blanca que viene de las ostras", "Clásica, elegante y atemporal"] },
   { word: "ARETE", hints: ["Joya que se cuelga en las orejas", "También llamado pendiente o zarcillo"] },
   { word: "LAZOS", hints: ["Adornos hechos con cintas", "Se usan mucho en el pelo o en la ropa"] },
@@ -27,7 +26,6 @@ export const WORDS: WordEntry[] = [
   { word: "RUBOR", hints: ["Maquillaje para dar color a las mejillas", "También conocido como colorete"] },
   { word: "RIMEL", hints: ["Maquillaje para las pestañas", "Las hace ver más largas y voluminosas"] },
   { word: "POLVO", hints: ["Maquillaje para matizar el rostro", "Evita los brillos y sella la base"] },
-  { word: "BROCHA", hints: ["Herramienta para aplicar el maquillaje", "Tiene pelos suaves y mango de madera"] },
   { word: "GLOSS", hints: ["Brillo labial transparente o con color", "Deja los labios jugosos y brillantes"] },
   { word: "AROMA", hints: ["Olor agradable de un buen perfume", "Te hace dejar huella por donde pasas"] },
   { word: "CORTE", hints: ["Estilo de peinado o forma de la ropa", "Puede ser bob, pixie o a capas"] },
@@ -47,11 +45,9 @@ export const WORDS: WordEntry[] = [
   { word: "TRAJE", hints: ["Conjunto de chaqueta y falda o pantalón", "Look profesional para ir a la oficina"] },
   { word: "VELOS", hints: ["Telas finas que cubren la cara o el pelo", "Accesorio clásico para las novias"] },
   { word: "MONOS", hints: ["Peinado recogido en forma de bola", "Elegante, despejado y muy chic"] },
-  { word: "UÑAS", hints: ["Parte de los dedos que se decora", "Se pueden pintar con esmalte o gel"] },
   { word: "TINTA", hints: ["Producto para cambiar el color del pelo", "Sirve para dar reflejos o cubrir canas"] },
   { word: "DIEMA", hints: ["Accesorio para sujetar el pelo", "Se coloca sobre la cabeza como un arco"] },
   { word: "MANOS", hints: ["Parte del cuerpo que luce la manicura", "Donde se ponen las pulseras y anillos"] },
-  { word: "PIJAM", hints: ["Ropa cómoda para dormir", "Suele ser de algodón o seda suave"] },
   { word: "TOPES", hints: ["Prendas superiores muy cortas", "Ideales para combinar con faldas altas"] },
   { word: "CHICA", hints: ["Mujer joven o niña", "La protagonista de este juego"] }
 ];

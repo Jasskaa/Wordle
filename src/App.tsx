@@ -446,7 +446,7 @@ export default function App() {
               animate={{ scale: 1, rotate: 0 }}
               className="max-w-md w-full"
             >
-              {totalWins >= 3 ? (
+              {totalWins >= 4 ? (
                 <>
                   <motion.div 
                     animate={{ scale: [1, 1.2, 1] }}
@@ -464,7 +464,7 @@ export default function App() {
                   <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 mb-8 border border-white/30">
                     <div className="text-pink-100 text-xs font-bold uppercase tracking-widest mb-2">Tu Contraseña Especial</div>
                     <div className="text-6xl font-black text-white tracking-tighter">
-                      {totalWins === 3 ? 'Casi pero no, tienes que lograr mas puntuacion' : totalWins === 4 ? 'Mirada' : 'Mirada'}
+                      Mirada
                     </div>
                   </div>
                 </>
@@ -475,7 +475,7 @@ export default function App() {
                     ¡CASI LO LOGRAS!
                   </h1>
                   <p className="text-pink-100 text-xl mb-8 font-medium">
-                    Necesitabas 3 aciertos, pero has conseguido {totalWins}. ¿Quieres intentarlo de nuevo?
+                    Necesitabas 4 aciertos, pero has conseguido {totalWins}. ¿Quieres intentarlo de nuevo?
                   </p>
                 </>
               )}
@@ -488,7 +488,7 @@ export default function App() {
               </button>
             </motion.div>
             
-            {totalWins >= 3 && <Confetti />}
+            {totalWins >= 4 && <Confetti />}
           </motion.div>
         )}
       </AnimatePresence>
@@ -512,7 +512,7 @@ export default function App() {
             >
               <h2 className="text-2xl font-bold text-pink-500 mb-4">Cómo Jugar</h2>
               <p className="text-stone-600 mb-4 leading-relaxed text-sm">
-                Adivina la palabra en 6 intentos. Cada intento debe ser una palabra válida de 5 letras.
+                Adivina la palabra en 5 intentos. Cada intento debe ser una palabra válida de 5 letras.
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center gap-3">
@@ -532,10 +532,10 @@ export default function App() {
               <div className="bg-pink-50 p-4 rounded-xl mb-6 border border-pink-100">
                 <h3 className="text-pink-500 font-bold text-sm mb-2">🎁 Recompensa Final</h3>
                 <p className="text-xs text-stone-600 leading-tight">
-                  ¡Demuestra tu estilo! Si logras adivinar al menos 3 palabras en las 5 rondas, desbloquearás una **contraseña exclusiva**.
+                  ¡Demuestra tu estilo! Si logras adivinar al menos **4 palabras** en las 5 rondas, desbloquearás la contraseña exclusiva.
                 </p>
                 <p className="mt-2 text-[10px] text-pink-600 font-bold italic">
-                  La recompensa varía según tu puntuación (3, 4 o 5 aciertos). ¡A por todas!
+                  ¡Solo los mejores consiguen la recompensa! ¡A por todas!
                 </p>
               </div>
 
